@@ -18,7 +18,8 @@
   list-style: circle;
 }
 
-.nav-list-item {
+.nav-list-item:first-child {
+  list-style-type: none;
 }
 
 .nav-list-link {
@@ -27,7 +28,7 @@
   text-transform: lowercase;
 }
 
-.nav-current {
+.nav-list-current-link {
   text-decoration: none;
 }
 
