@@ -46,16 +46,14 @@
   line-height: 1.33;
 }
 
-.contacts-list {
-  list-style-type: none;
-}
-
-.contacts-list-tel {
+.contacts-tel {
   text-underline-offset: 3px;
+  display: block;
 }
 
-.contacts-list-mail {
+.contacts-mail {
   text-underline-offset: 4px;
+  display: block;
 }
 
 /*  общая стилизация для секций */
@@ -89,7 +87,7 @@
   z-index: 1;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .page-title {
@@ -210,21 +208,25 @@
   line-height: 1.2;
   padding: 48px 40px;
   justify-content: space-between;
+  background-size: cover;
+  background-position: center;
+}
+
+.lots-item-young-couple {
+  background-image: url("../images/card-lot-01.jpg");
+}
+
+.lots-item-book {
+  background-image: url("../images/card-lot-02.jpg");
+}
+
+.lots-item-abstract {
+  background-image: url("../images/card-lot-03.jpg");
 }
 
 .lots-item-text {
   position: relative;
   z-index: 2;
-}
-
-.lots-item-image {
-  inset: 0;
-  position: absolute;
-  z-index: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Картинка масштабируется и заполняет блок, излишки обрезаются */
-  object-position: center;
 }
 
 .lots-more-link {
@@ -288,8 +290,7 @@
   max-width: max-content;
 }
 
-.footer-contacts-list {
-  margin-right: auto;
+.footer-contacts-address {
   max-width: 270px;
 }
 
@@ -313,33 +314,7 @@
 
 .social-list-link {
   display: block;
-  width: 48px;
-  height: 48px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-}
-
-.social-list-yotube {
-  background-image: url("../images/yt.svg");
-}
-
-.social-list-vk {
-  background-image: url("../images/vk.svg");
-}
-
-.social-list-pinterest {
-  background-image: url("../images/pinterest.svg");
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip-path: inset(50%);
-  white-space: nowrap;
-  border: 0;
 }
