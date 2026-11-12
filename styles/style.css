@@ -50,18 +50,12 @@
   list-style-type: none;
 }
 
-.contacts-list-item {
-}
-
 .contacts-list-tel {
   text-underline-offset: 3px;
 }
 
 .contacts-list-mail {
   text-underline-offset: 4px;
-}
-
-.page-content {
 }
 
 /*  общая стилизация для секций */
