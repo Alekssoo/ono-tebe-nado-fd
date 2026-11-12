@@ -9,9 +9,6 @@
   margin-bottom: 5px;
 }
 
-.nav {
-}
-
 .nav-list {
   display: flex;
   gap: 32px;
@@ -220,9 +217,6 @@
   line-height: 24px;
   padding: 48px 40px;
   justify-content: space-between;
-  /*background-image: url("../images/card-lot-01.jpg");
-  background-size: cover;
-  background-position: center;*/
 }
 
 .lots-item-text {
@@ -252,7 +246,6 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  /*grid-template-rows: max-content max-content;*/
   gap: 25px;
   margin-left: 24px;
   margin-right: 24px;
@@ -323,9 +316,6 @@
   display: flex;
   gap: 48px;
   list-style-type: none;
-}
-
-.social-list-item {
 }
 
 .social-list-link {
